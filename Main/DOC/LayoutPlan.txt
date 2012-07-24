@@ -1,0 +1,26 @@
+
+Layer Based Development
+I am planning to follow a layer based strategy for game layout.
+There will be three main layer in our game .
+	TopLayer 
+	MiddleLayer 
+	BackLayer
+	
+	BackLayer
+BackLayer will consiste of all the static objects which will not interact with user directly. 
+This layer  will hold the  background.
+
+	MiddleLayer 
+MiddleLayer will consist of all the objects which will move above the Back Layer but won't  interact with user .
+This layer will be used for BackGround Animations .
+
+	TopLayer
+TopLayer will contain objects like Buttons,which will interact with user directly.
+
+
+
+	
+	
+
+
+
