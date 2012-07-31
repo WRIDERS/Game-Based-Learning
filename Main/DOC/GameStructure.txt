@@ -1,0 +1,52 @@
+Following classes have been developed till now :
+
+
+--------------TOP VIEW----------------
+TopView
+A class which takes (dx,dy) as input parameters and navigates the point in topview.
+
+
+
+--------------SIDE VIEW-----------
+ApeTest
+This is the main class for game in SideView
+
+
+BackGround
+This is a class which contains all the backgrounds and will be responsible for background 
+animations.
+
+GameLevel
+This is a class which contains all the objects with which user can interact on stage .
+Contains ground and responsible for placing gates on stage.
+
+
+Running Man
+This file contains basic functions for creating man on screen and tracking its position velocity etc.
+
+WorldHolder
+This class contains reference to b2World object of Box2D Physics Engine and drawRatio.
+
+
+-----------------STAGE DATA STRUCTURE-----------
+Stage will consist of path and junctions at which Gates will be placed.
+Storing the stage elements in the form of Tree DataStructure where each junction will have two children 
+corresponding to left and forward path.
+
+
+NodeFile
+It is the basic class for Nodes.
+
+PathFile
+This file contains TreeDataStructure for our path and has functions for navigation and stage creation.
+
+
+
+
+
+
+
+
+
+
+
